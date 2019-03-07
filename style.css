@@ -1,0 +1,18 @@
+#container {
+    width: 300px;
+    margin: 0 auto;
+    background-color:black;
+}
+div {
+    width: 75%;
+    background-color:brown;
+
+}
+div.first{
+ background-color:pink;
+ transition: height 10s ease;
+
+}
+div.first:hover {
+    height: 100px;
+}
