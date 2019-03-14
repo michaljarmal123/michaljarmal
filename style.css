@@ -1,18 +1,18 @@
 #container {
     width: 300px;
-    margin: 0 auto;
     background-color:black;
+     margin: 0 auto;
 }
-div {
-    width: 75%;
+#container > div {
+    flex-grow: 1;
+    height: 100px;
     background-color:brown;
 
 }
-div.first{
+#container > div:nth-child(2){
  background-color:pink;
- transition: height 10s ease;
-
 }
-div.first:hover {
-    height: 100px;
+#container > div:hover {
+   background-color:blueviolet;
+   flex-grow:2;
 }
